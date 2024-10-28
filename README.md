@@ -12,12 +12,12 @@ In this project we explore the cleaned world layoff data to derive insights abou
 
 ## Analysis steps
 - **Data Exploration**:
-  - The highest amount and percentage of people laid off at once
-  - Companies that went bankrupt with the most funds raised
-  - The companies, industries, countries, years and company stages that laid off the most workers
-  - The period of layoffs
-  - Rolling total of workers laid off from the beginning of the period, to the end
-  - Top 5 companies, industries and countries that laid off the most workers by year
+  - Checked the highest amount and percentage of people laid off at once
+  - Checked companies that went bankrupt with the most funds raised
+  - Checked which companies, industries, countries, years and company stages laid off the most workers
+  - Checked the period of layoffs
+  - Made a rolling total of workers laid off from the beginning of the period, to the end
+  - Checked top 5 companies, industries and countries that laid off the most workers by year
 
 ## Key findings
 - Amazon, Google and Meta laid off the most workers
