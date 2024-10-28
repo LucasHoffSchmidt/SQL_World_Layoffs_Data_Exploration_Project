@@ -1,4 +1,4 @@
-# SQL Exploratory Data Analysis Project
+# SQL World Layoffs Data Exploration Project
 In this project we explore the cleaned world layoff data to derive insights about layoffs across the world.
 
 ## Tools and technologies
