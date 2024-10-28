@@ -1,5 +1,5 @@
 # SQL World Layoffs Data Exploration Project
-In this project we explore the cleaned world layoff data to derive insights about layoffs across the world.
+In this project we use MySQL to analyse world layoff data to derive insights about layoffs across the world.
 
 ## Tools and technologies
 - **SQL**: Data exploration
