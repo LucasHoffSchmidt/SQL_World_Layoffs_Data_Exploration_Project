@@ -10,27 +10,37 @@ FROM layoffs_staging2
 WHERE percentage_laid_off = 1
 ORDER BY funds_raised_millions DESC;
 
--- Companies, industries, countries, years and stages that laid off the most workers
+-- Companies that went bankrupt with the most funds raised
+SELECT *
+FROM layoffs_staging2
+WHERE percentage_laid_off = 1
+ORDER BY funds_raised_millions DESC;
+
+-- Companies that laid off the most workers
 SELECT company, SUM(total_laid_off)
 FROM layoffs_staging2
 GROUP BY company
 ORDER BY 2 DESC;
 
+-- Industries that laid off the most workers
 SELECT industry, SUM(total_laid_off)
 FROM layoffs_staging2
 GROUP BY industry
 ORDER BY 2 DESC;
 
+-- Countries that laid off the most workers
 SELECT country, SUM(total_laid_off)
 FROM layoffs_staging2
 GROUP BY country
 ORDER BY 2 DESC;
 
+-- Years that laid off the most workers
 SELECT YEAR(`date`), SUM(total_laid_off)
 FROM layoffs_staging2
 GROUP BY YEAR(`date`)
 ORDER BY 2 DESC;
 
+-- Company stages that laid off the most workers
 SELECT stage, SUM(total_laid_off)
 FROM layoffs_staging2
 GROUP BY stage
@@ -68,7 +78,8 @@ ORDER BY Ranking ASC
 )
 SELECT *
 FROM Company_Year_Rank
-WHERE Ranking <= 5;
+WHERE Ranking <= 5
+ORDER BY years ASC;
 
 -- Shows the top 5 industries that laid off the most workers by year
 WITH Industry_Year (industry, years, total_laid_off) AS
