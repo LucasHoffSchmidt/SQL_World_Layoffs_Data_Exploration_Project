@@ -1,7 +1,7 @@
 SELECT *
 FROM layoffs_staging2;
 
--- The highest amount of people laid off at once from a company as well as the highest percent of people laid off
+-- The highest amount and percentage of people laid off at once
 SELECT MAX(total_laid_off), MAX(percentage_laid_off)
 FROM layoffs_staging2;
 
