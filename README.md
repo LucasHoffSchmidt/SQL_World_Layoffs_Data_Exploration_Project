@@ -14,11 +14,11 @@ In this project we used MySQL to analyse world layoff data to derive insights ab
 ## Analysis steps
 - **Data Exploration**:
   - Checked the highest amount and percentage of people laid off at once
-  - Checked companies that went bankrupt with the most funds raised
+  - Checked instances where companies went bankrupt and laid off 100% of employees, sorted by most funds raised
   - Checked which companies, industries, countries, years and company stages laid off the most workers
   - Checked the period of layoffs
-  - Made a rolling total of workers laid off from the beginning of the period, to the end
-  - Checked top 5 companies, industries and countries that laid off the most workers by year
+  - Used a CTE with SUM to make a rolling total each month of workers laid off from the beginning of the period, to the end
+  - Used 2 CTEs with SUM and DENSE_RANK to check top 5 companies, industries and countries that laid off the most workers by year
 
 ## Key findings
 - Amazon, Google and Meta laid off the most workers
