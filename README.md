@@ -2,6 +2,7 @@
 In this project we used MySQL to analyse world layoff data to derive insights about layoffs across the world.
 
 ## Tools and technologies
+- **MySQL**
 - **SQL**: Data exploration
 
 ## Project Objectives
