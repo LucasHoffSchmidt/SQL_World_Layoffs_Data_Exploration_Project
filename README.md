@@ -11,9 +11,6 @@ In this project we used MySQL to perform exploratory data analysis on world layo
 - **MySQL**: Database Management System.
 - **SQL**: Interacting with the database.
 
-## Project Objective
-- Derive insights about layoffs across the world.
-
 ## Data Source
 - [Clean World Layoff Dataset](clean_world_layoffs_dataset.csv)
 
