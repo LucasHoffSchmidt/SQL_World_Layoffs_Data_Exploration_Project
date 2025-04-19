@@ -2,6 +2,8 @@
 In this project we used MySQL to perform exploratory data analysis on world layoff data to derive insights about layoffs across the world.
 
 ## Quick Links
+- Dataset used for exploratory data analysis: [Dataset](clean_world_layoffs_dataset.csv)
+- SQL code used for exploratory data analysis: [SQL Code](world_layoffs_exploratory_data_analysis_project.sql)
 - Other projects I have made: [Portfolio Website](https://lucashoffschmidt.github.io/)
 
 ## Tools Used
