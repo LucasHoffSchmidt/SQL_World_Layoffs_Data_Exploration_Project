@@ -17,6 +17,8 @@ In this project we used MySQL to perform exploratory data analysis on world layo
 - [Clean World Layoff Dataset](clean_world_layoffs_dataset.csv)
 
 ## Process
+  - Started MySQL Server.
+  - Used the cleaned table layoffs_staging2 for exploratory data analysis, created in the cleaning part of this project. 
   - Checked the highest amount and percentage of people laid off at once.
   - Checked instances where companies went bankrupt and laid off 100% of employees, sorted by most funds raised.
   - Checked which companies, industries, countries, years and company stages laid off the most workers.
