@@ -11,9 +11,6 @@ In this project we used MySQL to perform exploratory data analysis on world layo
 - **MySQL**: Database Management System.
 - **SQL**: Interacting with the database.
 
-## Data Source
-- [Clean World Layoff Dataset](clean_world_layoffs_dataset.csv)
-
 ## Process
   - Set up the MySQL Server, using the cleaned table layoffs_staging2 as the basis for exploratory data analysis.
   - Checked instances with the highest amount and percentage of people laid off at once.
