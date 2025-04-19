@@ -18,19 +18,17 @@ In this project we used MySQL to perform exploratory data analysis on world layo
 - [Clean World Layoff Dataset](clean_world_layoffs_dataset.csv)
 
 ## Process
-  - Started MySQL Server.
-  - Used the cleaned table layoffs_staging2 for exploratory data analysis, created in the cleaning part of this project. 
-  - Checked the highest amount and percentage of people laid off at once.
-  - Checked instances where companies went bankrupt and laid off 100% of employees, sorted by most funds raised.
-  - Checked which companies, industries, countries, years and company stages laid off the most workers.
-  - Checked the period of layoffs.
-  - Used a CTE with SUM to make a rolling total each month of workers laid off from the beginning of the period, to the end.
-  - Used 2 CTEs with SUM and DENSE_RANK to check top 5 companies, industries and countries that laid off the most workers by year.
+  - Set up the MySQL Server, using the cleaned table layoffs_staging2 as the basis for exploratory data analysis.
+  - Checked instances with the highest amount and percentage of people laid off at once.
+  - Checked bankruptcies that led to 100% of employees being laid off, sorted by most funds raised.
+  - Aggregated total layoffs by company, industry, country, year and company stage.
+  - Examined the time period of layoffs and created a monthly rolling total of workers laid off, using a CTE.
+  - Used CTEs with SUM and DENSE_RANK to identify the top 5 companies, industries and countries that laid off the most workers by year. 
 
 ## Key findings
-- Amazon, Google and Meta laid off the most workers.
-- 2022 and 2023 saw the highest amount of laid off workers.
-- The United States laid off the most workers across all years from 2020-2023.
+- Amazon, Google and Meta laid off the most workers in the years 2020-2023.
+- 2022 and 2023 saw the highest amount of workers laid off.
+- The United States consistently laid off the most workers each year.
 
 ## Conclusion
 The technology sector has the highest layoffs of any industry in the world, and the country with the highest turnover is USA.  
